@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Marcador Truco</string>
+    <string name="jogador1_padrao">Jogador 1</string>
+    <string name="jogador2_padrao">Jogador 2</string>
+    <string name="nome_jogador">%1$s:</string>
+    <string name="zero">0</string>
+    <string name="mais_1">+1</string>
+    <string name="mais_3">+3</string>
+    <string name="mais_6">+6</string>
+    <string name="mais_9">+9</string>
+    <string name="mais_12">+12</string>
+    <string name="hist_jogadas">Hist. de Jogadas</string>
+    <string name="zerar_historico">Zerar Histórico</string>
+    <string name="inf_nomes">Inf. Nomes</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="label_jogador1">Jogador 1:</string>
+    <string name="label_jogador2">Jogador 2:</string>
+    <string name="hint_nome">Nome do jogador</string>
+    <string name="titulo_vitoria">Fim da partida</string>
+    <string name="msg_vitoria">%1$s ganhou a partida!</string>
+    <string name="ok">OK</string>
+    <string name="msg_historico_zerado">Pontuação, partidas e nomes foram zerados</string>
+    <string name="msg_nomes_alterados">Nomes alterados</string>
+</resources>

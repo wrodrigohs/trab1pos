@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NomesActivity">
+
+    <TextView
+        android:id="@+id/tvLabelJogador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/label_jogador1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etJogador1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/hint_nome"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textCapWords"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLabelJogador1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvLabelJogador1" />
+
+    <TextView
+        android:id="@+id/tvLabelJogador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/label_jogador2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelJogador1" />
+
+    <EditText
+        android:id="@+id/etJogador2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/hint_nome"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textCapWords"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLabelJogador2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/etJogador1" />
+
+    <Button
+        android:id="@+id/btConfirmar"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:onClick="btConfirmarOnClick"
+        android:text="@string/confirmar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelJogador2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
